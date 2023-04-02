@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300;1,400;1,500;1,600&family=Roboto:wght@300;400;500;700");
+
+body {
+font-family: 'Roboto', sans-serif;
+color:rgb(99, 95, 95);
+font-size: 17px;
+font-weight: 400;
+}
+
+.container {
+  width: 900px;
+  margin: 50px auto;
+
+}
+
+.banner {
+  background-image: url("./images/Brain-background-copy-2.jpg");
+  background-size: cover;
+  background-color: black;
+  display: block;
+  color:aliceblue;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  padding: 120px 0;
+}
+
+.music-link-medium {
+  text-decoration: none;
+  background-image: linear-gradient(to bottom,  rgb(225, 242, 205), rgb(225, 242, 205));
+  font-weight: bold;
+  color: brown;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.music-link-medium:hover {
+  background-image: linear-gradient(to bottom, rgb(148, 170, 119), rgb(148, 170, 119));
+}
+
+@media(max-width:1200px) {
+  .container {
+    width: 1000px;
+  }
+}
+
+@media(max-width:992px) {
+  .container {
+    width: 700px;
+  }
+
+}
+@media(max-width:768px) {
+  .container {
+    width: 500px;
+  }
+
+}
+@media(max-width:576px) {
+  .container {
+    width: 300px;
+  }
+}
